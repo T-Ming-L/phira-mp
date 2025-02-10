@@ -47,11 +47,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs > rust.sh
 ```shell
   8
   9 # If RUSTUP_UPDATE_ROOT is unset or empty, default it.
- 10 RUSTUP_UPDATE_ROOT="${RUSTUP_UPDATE_ROOT:-https://static.rust-lang.org/rustup}"
+ 10 RUSTUP_UPDATE_ROOT="${RUSTUP_UPDATE_ROOT:-https://static.rust-lang.org/rustup}" #对这里进行修改
  11
 ```
 
-将"${RUSTUP_UPDATE_ROOT:-https://static.rust-lang.org/rustup}"改为
+将引号里面的内容改为
 
 ```shell
 "https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup"
