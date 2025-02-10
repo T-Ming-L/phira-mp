@@ -112,7 +112,7 @@ RUST_LOG=info target/release/phira-mp-server --port 8080
 ### For docker
 
 原作者的 docker 教程也是逆天,大概意思就是安装 docker 版的 ubuntu 并配置好环境,进行上面的操作
-我这里直接配置好了 tar 包,有需要的可以拿去用,安装了 openssh 和 screen,不说有多好吧,至少能用[releases](https://github.com/T-Ming-L/phira-mp/releases)
+我这里直接配置好了 tar 包,有需要的可以拿去用,安装了 openssh 和 screen,[releases](https://github.com/T-Ming-L/phira-mp/releases)解压后食用~
 需要桥接 22 端口和 12346 端口,ssh默认用户名和密码都是 root
 screen 后直接启动
 
