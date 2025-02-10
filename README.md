@@ -2,7 +2,7 @@
 
 `phira-mp` 是一个用 Rust 开发的项目。 以下是部署和运行该项目服务端的步骤。
 
-简体中文 | [releases](github.com/T-Ming-L/phira-mp/releases)
+简体中文 | [releases]([github.com/T-Ming-L/phira-mp/releases](https://github.com/T-Ming-L/phira-mp/releases))
 ## 环境
 
 - Rust 1.70 或更高版本
