@@ -174,7 +174,7 @@ netstat -tuln | grep 12346
 原生搭建还在研究,开学后可能没时间,等我搞好了估计就是全网独家了(当然也会开源)(doge
 现行方案就是用 docker,不过这损耗嘛,emmm,还是用别人的服务器联机吧
 
-##后记
+# 后记
 
 在我完成重构docker后,偶然发现了[tphira-mp](https://github.com/Pimeng/tphira-mp)......
 
