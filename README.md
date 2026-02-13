@@ -111,7 +111,7 @@ RUST_LOG=info target/release/phira-mp-server --port 8080
 
 ### For docker
 
-之前做的不够方便,进行重构了下,原版token验证有问题,我库里的已经修复,依然tar包,这次导入即食,记得桥接12346端口~~
+之前做的不够方便,进行重构了下,原版token验证有问题,我库里的已经修复,依然tar包,这次解压后导入即食,记得桥接12346端口~~
 
 或者说想自己构建可以创建以下Dockerfile进行构建:
 ```shell
@@ -173,3 +173,11 @@ netstat -tuln | grep 12346
 
 原生搭建还在研究,开学后可能没时间,等我搞好了估计就是全网独家了(当然也会开源)(doge
 现行方案就是用 docker,不过这损耗嘛,emmm,还是用别人的服务器联机吧
+
+#后记
+
+在我完成重构docker后,偶然发现了[tphira-mp](https://github.com/Pimeng/tphira-mp)......
+
+真的好用啊,docker镜像又小,还有配置文件,搞得我像个小丑一样(搞这个本来就主要是给我自己用的):(
+
+在这里强烈推荐[tphira-mp](https://github.com/Pimeng/tphira-mp),自己用就用他们团队的吧,别走我这个小菜鸡的老路
