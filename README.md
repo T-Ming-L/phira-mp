@@ -112,6 +112,7 @@ RUST_LOG=info target/release/phira-mp-server --port 8080
 ### For docker
 
 之前做的不够方便,进行重构了下,原版token验证有问题,我库里的已经修复,依然tar包,这次导入即食,记得桥接12346端口~~
+
 或者说想自己构建可以创建以下Dockerfile进行构建:
 ```shell
 FROM ubuntu:22.04
